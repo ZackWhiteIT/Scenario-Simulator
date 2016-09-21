@@ -1,5 +1,5 @@
 # Scenario-Simulator
-## Python Terminal Text Simulations
+Python Terminal Text Simulations
 
 ## Scenarios
 ### Prisoner's Dilemma
