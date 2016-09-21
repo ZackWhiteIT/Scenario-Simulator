@@ -1,0 +1,50 @@
+{
+  "scenarios": [
+    {
+      "name": "Prisoner's Dilemma",
+      "story": "You are detained in an interrogation room. Across from you sits a middle-aged investigator, Inspector Jones. His salt & pepper hair shines in the harsh white light from the lone lamp in the corner of the room.\n\n\nINSPECTOR JONES:\n\n\"We have your friend, Shelly, in the room next door, and we're asking her what you were up to Sunday night. We know one of you robbed Mr. Hernandez.\n\nIf you tell us what you know about Shelly's whereabouts, the DA will cut a deal with you and keep you out of jail, no matter your involvement in the robbery of Mr. Hernandez.\n\nIf you don't tell us what we want to know, we will charge you with obstruction of justice, and we already have both your prints in Mr. Hernandez's apartment. That's enough to send you to jail for at least a year.\n\nIf your friend rats you out, you'll go to jail for three years. You should think about our offer.\"",
+      "options": [
+        {
+          "id": "1",
+          "text": "Tell Inspector Jones Shelly committed the crime while you were visiting Mr. Hernandez. (Freedom)"
+        },
+        {
+          "id": "2",
+          "text": "Don't betray your friend. (At least 1 year in prison)"
+        }
+      ],
+      "bot_options": [
+        {
+          "id": "1",
+          "text": "Shelly tells Inspector Jones you committed the crime."
+        },
+        {
+          "id": "2",
+          "text": "Shelly remains loyal and doesn't snitch."
+        }
+      ],
+      "results_array": [
+        {
+          "user_selection": "1",
+          "bot_selection": "1",
+          "result": "Each of you incriminate the other and serve two years in prison."
+        },
+        {
+          "user_selection": "1",
+          "bot_selection": "2",
+          "result": "Shelly serves three years in prison, and you are given freedom."
+        },
+        {
+          "user_selection": "2",
+          "bot_selection": "1",
+          "result": "Shelly is given freedom, and you serve three years in prison."
+        },
+        {
+          "user_selection": "2",
+          "bot_selection": "2",
+          "result": "Inspector Jones only has enough evidence to charge each of you with tresspassing and obstruction of justice. You both serve a year in prison."
+        }
+      ]
+    }
+  ]
+}
