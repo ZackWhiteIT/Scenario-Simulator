@@ -7,3 +7,11 @@ Python Terminal Text Simulations
 
 ## Adding Your Own Scenarios
 Just add your scenario to the JSON file based on the current template!
+
+## Author(s)
+
+[Zack White](https://github.com/ZackWhiteIT)
+
+## License
+
+This software is licensed under The MIT License (MIT). See the [LICENSE](LICENSE) file in the top distribution directory for the full license text.
